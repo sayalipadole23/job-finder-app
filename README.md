@@ -1,16 +1,21 @@
-# JobFinder - Modern Job Portal Web Application
+# JobFinder - Job Portal Application
 
-JobFinder is a lightweight, responsive React web application designed for browsing, searching, and applying for job openings. Built with modern React 18 and Vite for high performance and smooth developer experience.
+🔗 **Live Demo**: [https://job-finder-portal-gamma.vercel.app/](https://job-finder-portal-gamma.vercel.app/)
 
 ---
 
-## 🚀 Features
+## 📝 Project Description
 
-- **Job Listing & Cards**: Display available positions with key details (Company, Salary, Experience, Location, Skills).
-- **Instant Search & Filtering**: Real-time filtering by keyword (company, job title, skills) and location.
-- **Detailed Job View**: Deep dive into job descriptions, requirements, and responsibilities.
-- **Application Form**: Interactive modal/form allowing users to apply for positions with validation and submission feedback.
-- **Responsive UI**: Styled with clean custom CSS, optimized for mobile and desktop screens.
+JobFinder is a clean, responsive, and user-friendly web application designed to help job seekers explore, search, and apply for open career opportunities effortlessly.
+
+---
+
+## ✨ Features
+
+- 🔍 **Job Search & Filtering**: Search jobs by title, company, skills, or location in real-time.
+- 📋 **Job Details View**: View complete job descriptions, experience requirements, salaries, and key responsibilities.
+- 📝 **Application Form**: Interactive modal form to apply for job postings with client-side validation and instant submission feedback.
+- 📱 **Responsive Design**: Mobile-friendly, clean interface built with modern custom CSS.
 
 ---
 
@@ -20,13 +25,14 @@ JobFinder is a lightweight, responsive React web application designed for browsi
 - **Build Tool**: Vite 5
 - **Styling**: Modern CSS3
 - **Language**: JavaScript (ES6+ / JSX)
+- **Deployment**: Vercel
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Job Portal Task/ (or root project directory)
+Job Finder/
 ├── src/
 │   ├── components/
 │   │   ├── JobCard.jsx       # Individual job posting card
@@ -36,13 +42,11 @@ Job Portal Task/ (or root project directory)
 │   │   └── SearchBar.jsx     # Search & filter input bar
 │   ├── App.jsx               # Main application component & state
 │   ├── App.css               # Main application styles
-│   └── main.jsx              # Application entry point
-├── index.html                # HTML entry template
-├── package.json              # Project dependencies & scripts
-├── package-lock.json         # Dependency lockfile
+│   └── main.jsx              # Entry point
+├── index.html                # HTML template
+├── package.json              # Dependencies and scripts
 ├── vite.config.js            # Vite configuration
-├── .env.example              # Environment variables template
-└── .gitignore                # Git ignore configuration
+└── vercel.json               # Vercel deployment configuration
 ```
 
 ---
@@ -50,71 +54,41 @@ Job Portal Task/ (or root project directory)
 ## 💻 Prerequisites
 
 - **Node.js**: v16.x or higher
-- **npm**: v8.x or higher (comes with Node.js)
-
----
-
-## 🔧 Environment Variables
-
-Optional environment configuration template is provided in `.env.example`.
-
-To use custom environment variables:
-1. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-2. Edit `.env` as required for your environment.
+- **npm**: v8.x or higher
 
 ---
 
 ## 🏃 Getting Started (Local Setup)
 
-### 1. Install Dependencies
-Open a terminal in the project directory and run:
-```bash
-npm install
-```
-
-### 2. Start Development Server
-```bash
-npm run dev
-```
-The application will launch locally at:
-👉 `http://localhost:5173`
-
-### 3. Build for Production
-To test or build the production distribution:
-```bash
-npm run build
-```
-The production bundle will be generated inside the `dist/` directory.
-
-### 4. Preview Production Build
-```bash
-npm run preview
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sayalipadole23/job-finder-app.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd job-finder-app
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+5. **Open in browser**:
+   Navigate to `http://localhost:5173`
 
 ---
 
-## 📦 Setting Up Git & Deployment (For your own repository)
+## 🎯 Project Purpose
 
-This codebase has been cleaned of previous Git repository history and platform-specific configs.
+This project was developed as a final year academic capstone/task project to showcase skills in modern frontend development using React, state management, UI component structure, and cloud deployment.
 
-When you are ready to publish to GitHub and deploy:
+---
 
-1. **Initialize Git repository**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
+## 👤 Author
 
-2. **Connect to your GitHub Repository**:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. **Deployment**:
-   - You can deploy the static output (`dist/`) directly to Vercel, Netlify, Render, or GitHub Pages.
+**Sayali Padole**  
+Final Year B.Tech CSE  
+*S.B. Jain Institute of Technology, Management & Research, Nagpur*
